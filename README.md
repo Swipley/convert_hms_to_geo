@@ -1,6 +1,6 @@
 # Convert HMS to GEO
 This is a conventer HMS to GEO for *Super Mario 64*. Requires SM64 decomp and a knowledge of how levels work.
-- **NOTE**: This is super easy to use you just need to follow -- steps
+- **NOTE**: This is super easy to use you just need to follow 4 steps
 
 ## "Creators":
 - Swipley
