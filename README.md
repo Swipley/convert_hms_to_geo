@@ -7,6 +7,7 @@ This simple header converts leak HMS (hierarchy map sequences) data to SM64 deco
 - PenguinMania
 - Emnet
 
+## How to use it?
 - Step 1: Put the file "convert_hms_to_geo_layout.h" inside the ```include``` folder of your decomp repo.
 - Step 2: Open ```sm64.h``` on the same ```include``` folder and add `#include "convert_hms_to_geo_layouts.h"`
 - Step 3: Save & run ```make``` (this will re-compile some parts, so don't worry)
