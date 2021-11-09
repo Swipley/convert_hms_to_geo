@@ -3,9 +3,9 @@ This simple header converts leak HMS (hierarchy map sequences) data to SM64 deco
 - **NOTE**: This is super easy to use you just need to follow 4 steps
 
 ## "Creators":
-- Swipley
+- [Swipley](https://github.com/swipley)
 - PenguinMania
-- Emnet
+- [Emnet](https://github.com/realemnet)
 
 ## How to use it?
 - Step 1: Put the file "convert_hms_to_geo_layout.h" inside the ```include``` folder of your decomp repo.
