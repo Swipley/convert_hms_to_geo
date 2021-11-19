@@ -8,8 +8,9 @@ This simple header converts leak HMS (hierarchy map sequences) data to SM64 deco
 - [Emnet](https://github.com/realemnet)
 
 ## How to use it?
-- Step 1: Put the file "convert_hms_to_geo_layout.h" inside the ```include``` folder of your decomp repo.
-- Step 2: Open ```sm64.h``` on the same ```include``` folder and add `#include "convert_hms_to_geo_layouts.h"`
-- Step 3: Save & run ```make``` (this will re-compile some parts, so don't worry)
-- Step 4: if you have a file which has hms data and gfx data together, simply add `#include "convert_hms_to_geo_layouts.h"` there.
+- Step 1: Download "convert_hms_to_geo_layouts.h" from [Releases](https://github.com/Swipley/convert_hms_to_geo/releases/tag/SuperMario64).
+- Step 2: Put the file "convert_hms_to_geo_layout.h" inside the ```include``` folder of your decomp repo.
+- Step 3: Open ```sm64.h``` on the same ```include``` folder and add `#include "convert_hms_to_geo_layouts.h"`
+- Step 4: Save & run ```make VERSION=jp COMPARE=0``` ```make VERSION=us COMPARE=0``` ```make VERSION=eu COMPARE=0``` (this will re-compile some parts, so don't worry)
+- Step 5: if you have a file which has hms data and gfx data together, simply add `#include "convert_hms_to_geo_layouts.h"` there.
 
