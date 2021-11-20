@@ -8,17 +8,6 @@
 #define RM_XDECAL LAYER_TRANSPARENT_DECAL
 #define RM_XINTER LAYER_TRANSPARENT_INTER
 #define RM_SOFT_SPRITE RM_SPRITE
-// OR Just use the ones from the gigaleak (tested, works).
-#define	RM_BACK				0
-#define	RM_SURF				1
-#define	RM_DECAL			2
-#define	RM_INTER			3
-#define	RM_SPRITE			4
-#define	RM_XSURF			5
-#define	RM_XDECAL			6
-#define	RM_XINTER			7
-
-#define	RM_SOFT_SPRITE		RM_SPRITE
 
 // Hms data macros
 #define	_msU32(dat) ((unsigned long)(dat*65536.0f))
