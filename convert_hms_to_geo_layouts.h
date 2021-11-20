@@ -8,6 +8,17 @@
 #define RM_XDECAL LAYER_TRANSPARENT_DECAL
 #define RM_XINTER LAYER_TRANSPARENT_INTER
 #define RM_SOFT_SPRITE RM_SPRITE
+// OR Just use the ones from the gigaleak
+#define	RM_BACK				0
+#define	RM_SURF				1
+#define	RM_DECAL			2
+#define	RM_INTER			3
+#define	RM_SPRITE			4
+#define	RM_XSURF			5
+#define	RM_XDECAL			6
+#define	RM_XINTER			7
+
+#define	RM_SOFT_SPRITE		RM_SPRITE
 
 // Hms data macros
 #define	_msU32(dat) ((unsigned long)(dat*65536.0f))
@@ -50,3 +61,22 @@
 #define ControlShapeAnime geo_switch_anim_state
 #define CtrlPingEye geo_switch_tuxie_mother_eyes
 #define KopaProc1 geo_update_body_rot_from_parent
+
+// Levels (incomplete)
+#define seqInitStage() INIT_LEVEL(),
+#define seqLoadPres LOAD_MIO0
+#define seqBeginConstruction() ALLOC_LEVEL_POOL(),
+#define seqHmsMario MARIO
+#define S_Mario MODEL_MARIO
+#define ShapePlayer1 0x00000001
+#define e_mario bhvMario
+#define seqBeginScene AREA
+#define seqMapInfo TERRAIN
+#define seqEndScene() END_AREA(),
+#define seqEndConstruction() FREE_LEVEL_POOL(),
+#define seqEnterMario MARIO_POS
+#define seqCProgram(func, arg) CALL(arg, func),
+#define seqRunning(func, arg) CALL_LOOP(arg, func),
+#define seqDestroyStage() CLEAR_LEVEL(),
+#define seqFreeze(frames) SLEEP_BEFORE_EXIT(frames),
+#define seqExit EXIT(),
