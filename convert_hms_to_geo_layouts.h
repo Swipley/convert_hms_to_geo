@@ -8,7 +8,7 @@
 #define RM_XDECAL LAYER_TRANSPARENT_DECAL
 #define RM_XINTER LAYER_TRANSPARENT_INTER
 #define RM_SOFT_SPRITE RM_SPRITE
-// OR Just use the ones from the gigaleak
+// OR Just use the ones from the gigaleak (tested, works).
 #define	RM_BACK				0
 #define	RM_SURF				1
 #define	RM_DECAL			2
