@@ -28,7 +28,7 @@
 #define hmsSucker(x, y, z, w, dl) GEO_HELD_OBJECT(x, y, z, w, dl),
 #define hmsHeader(x) GEO_CULLING_RADIUS(x),
 #define hmsBboard(px,py,pz) GEO_BILLBOARD_WITH_PARAMS(0,px,py,pz),
-#define hmsTrans(ux,uy,uz) GEO_TRANSLATE_NODE(0, ux, uy, uz)
+#define hmsTrans(ux,uy,uz) GEO_TRANSLATE_NODE(0x00, ux, uy, uz)
 #define Hierarchy const GeoLayout
 
 // Mario geo node scripts
