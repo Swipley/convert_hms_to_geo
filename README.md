@@ -3,10 +3,10 @@ This simple header converts leak HMS (hierarchy map sequences) data to SM64 deco
 - **NOTE**: This is super easy to use you just need to follow 4 steps
 
 ## "Creators":
-- [Swipley](https://github.com/swipley)
-- PenguinMania
-- [Emnet](https://github.com/realemnet)
-- [Mohammed](https://github.com/noname64212)
+- [M A R I O](https://github.com/MarioMaster9) [Official Creator]
+- [Swipley](https://github.com/swipley) [Helper]
+- [Emnet](https://github.com/realemnet) [Helper]
+- [Mohammed](https://github.com/noname64212) [Helper]
 
 ## How to use it?
 - Step 1: Download "convert_hms_to_geo_layouts.h" from [Releases](https://github.com/Swipley/convert_hms_to_geo/releases/tag/SuperMario64).
