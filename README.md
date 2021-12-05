@@ -1,3 +1,4 @@
+Progress: 67%      If you find a new macros you can DM Swipley#0001
 # Convert HMS to GEO
 This simple header converts leak HMS (hierarchy map sequences) data to SM64 decomp GeoLayouts.
 - **NOTE**: This is super easy to use you just need to follow 4 steps
