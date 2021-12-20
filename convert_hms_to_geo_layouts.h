@@ -53,6 +53,7 @@
 #define CtrlPingEye geo_switch_tuxie_mother_eyes
 #define KopaProc1 geo_update_body_rot_from_parent
 #define AlphaControl geo_update_layer_transparency
+#define MotosProc1 geo_update_held_mario_pos
 
 // Levels (incomplete)
 #define seqInitStage() INIT_LEVEL(),
