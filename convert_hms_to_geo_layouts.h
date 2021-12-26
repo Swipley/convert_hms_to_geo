@@ -28,8 +28,8 @@
 #define hmsSucker(x, y, z, w, dl) GEO_HELD_OBJECT(x, y, z, w, dl),
 #define hmsHeader(x) GEO_CULLING_RADIUS(x),
 #define hmsBboard(px,py,pz) GEO_BILLBOARD_WITH_PARAMS(0,px,py,pz),
-#define hmsTrans(a,b,c) GEO_TRANSLATE_NODE(0x00,a,b,c),
-#define hmsCoord(a,b,c,d,e,f) GEO_TRANSLATE_ROTATE(0,a,b,c,d,e,f),
+#define hmsTrans(ux,uy,uz) GEO_TRANSLATE_NODE(0x00, ux,uy,uz),
+#define hmsCoord(ux,uy,uz,displayList) GEO_TRANSLATE_ROTATE(0, ux,uy,uz,displayList),
 #define Hierarchy const GeoLayout
 
 // Mario geo node scripts
