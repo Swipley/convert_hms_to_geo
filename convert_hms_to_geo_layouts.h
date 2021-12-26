@@ -48,7 +48,7 @@
 #define CtrlMarioGeoMode geo_mirror_mario_backface_culling
 #define CtrlMarioAlpha geo_mirror_mario_set_alpha
 
-// Other geo node scripts
+// Other geo node scripts // Finished
 #define ControlShapeAnime geo_switch_anim_state
 #define CtrlPingEye geo_switch_tuxie_mother_eyes
 #define KopaProc1 geo_update_body_rot_from_parent
