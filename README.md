@@ -1,4 +1,4 @@
----- abandoned! ----
+---- abandoned! no longer will have updates due to swipley quitting sm64 stuff... ----
 
 - This is super easy to use you just need to follow 3 steps
 - As of now, the current progress is ??%.
